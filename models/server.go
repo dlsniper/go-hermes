@@ -14,5 +14,6 @@ type Server struct {
 	User           *User
 	LastMetricDate time.Time
 	OS             *OS
+	Metrics        *[]Metric
 	CreationDate   time.Time
 }
