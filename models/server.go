@@ -11,6 +11,7 @@ type OS struct {
 type Server struct {
 	ID             int
 	HostName       string
+	User           *User
 	LastMetricDate time.Time
 	OS             *OS
 	CreationDate   time.Time
