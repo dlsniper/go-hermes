@@ -1,4 +1,4 @@
-package models
+package model
 
 // User type represents a user (customer) in our system.
 type User struct {

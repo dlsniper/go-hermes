@@ -6,10 +6,10 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/ggirtsou/go-hermes/models"
+	"github.com/ggirtsou/go-hermes/model"
 )
 
-var payload models.Payload
+var payload model.Payload
 
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
